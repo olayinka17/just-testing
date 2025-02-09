@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>sign up page</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="header">
+        <div class="logo">
+          <img src="./Logo.svg" alt="product logo" />
+        </div>
+        <div class="header-content">
+          <h1>For Individual</h1>
+          <p class="hidden-on-large">
+            Inspiring wholesome harmony for the mind, body and spirit, for
+            everyone, everywhere.
+          </p>
+          <p class="show-on-large">
+            Start benefitting from wellness expreience. For companies looking on
+            increase productivity, and improving organization wellness.
+          </p>
+        </div>
+      </div>
+      <form action="signup.php" method="post">
+        <div class="form-element">
+          <label for="name">First Name</label>
+          <input
+            type="text"
+            name="firstname"
+            id="first-name"
+            placeholder="Tolu"
+            required
+          />
+        </div>
+        <div class="form-element">
+          <label for="name">Last Name</label>
+          <input type="text" name="lastname" id="last-name" required />
+        </div>
+        <div class="form-element">
+          <label for="gender">Gender</label>
+          <select name="gender" id="select-gender">
+            <option value="select-here">Select here</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div class="form-element">
+          <label for="dob">Date Of Birth</label>
+          <input type="date" name="dob" id="dob" required />
+        </div>
+        <div class="form-element">
+          <label for="weight">Weight (KG)</label>
+          <input
+            type="text"
+            name="weight"
+            id="weight-in-kg"
+            placeholder="Enter Weight"
+            required
+          />
+        </div>
+        <div class="form-element">
+          <label for="height">Height (CM)</label>
+          <input
+            type="number"
+            name="height"
+            id="height-in-cm"
+            placeholder="Enter height here "
+            required
+          />
+        </div>
+        <div class="form-element full-width">
+          <label for="activity">Activity level</label>
+          <select name="activity" id="activity-level">
+            <option value="select-here">Select here</option>
+            <option value="sedentary">Sedentary</option>
+            <option value="light">Light</option>
+            <option value="moderate">Moderate</option>
+            <option value="active">Active</option>
+            <option value="very-active">Very Active</option>
+          </select>
+        </div>
+        <div class="form-element full-width">
+          <label for="passworrd">Password</label>
+          <input type="password" name="password" id="password" required />
+        </div>
+        <div class="form-element full-width">
+          <button type="submit">Register</button>
+        </div>
+        <footer class="footer show-on-large full-width">
+          By clicking Register, you agree to our
+          <span><a href="https://www.google.com/">Terms of Use</a></span> and
+          our <span><a href="https://www.google.com/">Privacy Policy</a></span>
+        </footer>
+      </form>
+      <footer class="footnote hidden-on-large full-width">
+        By clicking Register, you agree to our
+        <span><a href="https://www.google.com/">Terms of Use</a></span> and our
+        <span><a href="https://www.google.com/">Privacy Policy</a></span>
+      </footer>
+    </section>
+  </body>
+</html>

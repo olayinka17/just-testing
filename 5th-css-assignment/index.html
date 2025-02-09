@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">    
+    <title>5th assignment</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./images/wp-logo.png" alt="" />
+      <nav class="header-nav">
+        <ul class="breadcrumb">
+          <li>Download</li>
+          <li>Learn more</li>
+          <li>Pricing</li>
+          <li>Help</li>
+          <button class="account">Account</button>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-section">
+        <section class="main-heading">
+          <h2 class="check-out">Checkout</h2>
+        </section>
+        <section class="basic">
+          <div class="basic-heading"><h2><span class="basic-numbered">1</span>Your Basic Information</h2></div>
+          <form class="basic-form" >
+
+            <div class="basic-element">
+              <label for="firstname">First Name</label>
+              <input type="text" name="firstname" id="first-name" placeholder="Jane" required>
+            </div>
+            <div class="basic-element">
+              <label for="lastname">Last Name</label>
+              <input type="text" name="lastname" id="last-name" placeholder="Doe" required>
+            </div>
+            <div class="basic-email">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="janedoe@example.com" required>
+          </form>
+        </section>
+        <section class="payment">
+          <div class="payment-heading">
+            <h2>
+              <span class="payment-numbered">2</span>Your Payment Information
+            </h2>
+          </div>
+          <form class="payment-form">
+            <div class="payment-element">
+              <label for="card-number">Card Number</label>
+  
+            </div>
+            <div class="payment-details">
+              <input
+                type="text"
+                name="cardnumber"
+                id="card-number"
+                placeholder="Card Number"
+              />
+              <input
+                type="text"
+                name="monthyear"
+                id="month-year"
+                placeholder="MM/YY"
+              />
+              <input type="text" name="cvc" id="c-v-c" placeholder="CVC" />
+            </div>
+          </form>
+        </section>
+        <section class="button-foot">
+          <button class="buy-button">Buy WP Pusher</button>
+  
+          <div class="foot-note">
+            <p>
+              <span class="foot-question-sign">&quest;</span>
+              <b>Need help&quest;</b> Don’t hesitate to contact support!
+            </p>
+            
+          </div>
+          <button class="powered-button"><p>powered by <span class="stripe-span">stripe</span></p></button>
+        </section>
+      </section>
+      <aside class="aside">
+        <div class="aside-heading">
+          <h5>Freelancer</h5>
+
+          <div class="amount">
+             <span class="currency">&dollar;</span> 
+            <p class="price"> 99<span class="per-year">/ year</span> </p>
+            
+             
+          </div>
+          <p class="note">Automatically renews <br>
+             after 1 year</p>
+        </div>
+
+        <div class="plan-offer">
+          <ul >
+            <li>Use on 5 client sites</li>
+            <li>Private repositories</li>
+            <li>Email support</li>
+          </ul>
+        </div>
+        <div class="change-of-plan">
+          <p class="note">Need <span class="no">20</span> client sites?</p>
+          <a href="https://www.google.com/" target="_blank">Switch to the Agency plan.</a>
+          
+        </div>
+        <div class="review">
+          <p>
+            FTP is horrible to deal with. <span>WP Pusher</span> solves that issue,
+            and the customer support is awesome!
+          </p>
+          <div class="reviewer">
+            <img src="./images/Bitmap.png" alt="Reviewer image." />
+            <p class="kirk">Kirk Beard</p>
+            
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer >
+      <p>&copy;2018 WP Pusher IVS. <a>Terms of Service</a></p>
+    </footer>
+  </body>
+</html>
