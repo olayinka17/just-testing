@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 1280px;
+  width: 1300px;
   height: 382px;
   border: 0px 0px 8px 0px;
   opacity: 0px;
@@ -41,7 +41,7 @@ h1 {
   margin-bottom: 30px;
 }
 p {
-  width: 415px;
+  max-width: 415px;
   height: 60px;
   gap: 0px;
   opacity: 0px;
@@ -103,7 +103,7 @@ span {
   position: relative;
 }
 .content-paragraph1 {
-  width: 752px;
+  max-width: 752px;
   height: 120px;
   gap: 0px;
   opacity: 0px;
@@ -117,7 +117,7 @@ span {
   padding-left: 20px;
 }
 .content-paragraph2 {
-  width: 752px;
+  max-width: 752px;
   height: 60px;
   gap: 0px;
   opacity: 0px;
