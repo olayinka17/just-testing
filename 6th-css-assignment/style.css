@@ -741,7 +741,7 @@ form {
   letter-spacing: 0%;
   color: black;
 }
-.alias-field{
+.alias-field {
   width: 178px;
   height: 48px;
   border-radius: 12px;
@@ -797,38 +797,36 @@ form {
   gap: 10px;
   padding: 10px;
 }
-.form-footer p{
+.form-footer p {
   width: 373px;
-  height: 40px;  
+  height: 40px;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0%;
-  color: #3284ff;  
+  color: #3284ff;
 }
-.form-footer a{
+.form-footer a {
   font-weight: bold;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0%;
   color: #3284ff;
 }
-.faq-section{
-  
+.faq-section {
   width: 792px;
   height: 955px;
   margin-left: px;
-  
 }
-.faq-header h3{
-text-align: center;
-font-size: 40px;
-line-height: 32px;
-letter-spacing: 0%;
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: 400px;
+.faq-header h3 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 400px;
 }
-.faq-main{
+.faq-main {
   width: 792px;
   height: 843px;
   margin-left: 230px;
@@ -839,8 +837,6 @@ details {
   line-height: 32px;
   letter-spacing: 0%;
   padding-left: 30px;
-  
-   
 }
 
 summary {
@@ -876,28 +872,26 @@ details[open] summary:after {
 details[open] div {
   padding: 0.5em 1em;
 }
-.rev-section{
+.rev-section {
   max-width: 1440px;
   height: 300px;
-  background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
   padding: 100px;
-  
 }
-.rev-div{
+.rev-div {
   width: 806px;
   height: 137px;
   margin-left: 100px;
-  
 }
-.rev-div h3{
+.rev-div h3 {
   width: 800px;
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0%;
   text-align: center;
-  color: #ffffff;  
+  color: #ffffff;
 }
-.rev-div button{
+.rev-div button {
   width: 200px;
   height: 48px;
   border-radius: 100px;
@@ -906,7 +900,7 @@ details[open] div {
   padding-right: 24px;
   padding-bottom: 12px;
   padding-left: 24px;
-  background-color: #005AE2;
+  background-color: #005ae2;
   border: none;
   margin-left: 317px;
   margin-top: 40px;
@@ -915,111 +909,101 @@ details[open] div {
   letter-spacing: 0%;
   color: #ffffff;
 }
-.main-foot{
+.main-foot {
   display: grid;
-  grid-template-columns: .3fr 1fr;
+  grid-template-columns: 0.3fr 1fr;
   max-width: 1440px;
   height: 561px;
   padding-left: 71px;
   padding-top: 50px;
-  
 }
-.links-foot{
+.links-foot {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.links-foot nav li{
+.links-foot nav li {
   list-style: none;
 }
-.why-res-foot{
+.why-res-foot {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 180px;
   height: 384px;
-
 }
-.why-res-foot h3{
+.why-res-foot h3 {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
   margin-bottom: 15px;
-  
 }
-.why-res-foot li{
+.why-res-foot li {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
 }
-.sol-feat-foot{
+.sol-feat-foot {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 201px;
   height: 320px;
-  
 }
-.sol-feat-foot h3{
+.sol-feat-foot h3 {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
   margin-bottom: 15px;
 }
-.sol-feat-foot li{
+.sol-feat-foot li {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
 }
-.prod-leg-foot{
+.prod-leg-foot {
   width: 211px;
   height: 320px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.prod-leg-foot h3{
+.prod-leg-foot h3 {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
   margin-bottom: 15px;
 }
-.prod-leg-foot li{
+.prod-leg-foot li {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
 }
-.company-foot{
+.company-foot {
   width: 148px;
   height: 172px;
   gap: 8px;
   padding-right: 24px;
   padding-left: 24px;
-  
 }
-.company-foot h3{
+.company-foot h3 {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
   margin-bottom: 15px;
 }
-.company-foot li{
+.company-foot li {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
-  
 }
-.footer-bottom{
+.footer-bottom {
   grid-column: 2 span;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-
 }
-.footer-bottom p{
+.footer-bottom p {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0%;
-
 }
-
-
